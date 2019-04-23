@@ -1,0 +1,152 @@
+body,dd,div,dl,dt,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,select,td,textarea,th,ul {margin: 0;padding: 0}body,html {width: 100%}table {border-collapse: collapse}
+body {min-width: 1300px;font-family: PingFang SC, Microsoft YaHei, arial, helvetica, sans-serif;font-family: PingFang SC, Microsoft YaHei, arial, helvetica, sans-serif;font-style: normal;-webkit-font-feature-settings: normal;font-feature-settings: normal;font-variant: normal;font-stretch: normal;font-size: 12px;background: #f8f8fa;}
+
+li,ul {list-style: none}a {text-decoration: none}
+
+button,input,textarea {outline: none;box-shadow: none;font-weight: 400}
+
+.clearfix {zoom: 1}
+.clearfix:after {content: ".";width: 0;height: 0;visibility: hidden;display: block;clear: both}
+
+.fl {float: left}.fr {float: right}
+.tl {text-align: left}.tc {text-align: center}.tr {text-align: right}
+.ellipse {overflow: hidden;text-overflow: ellipsis;white-space: nowrap}
+img {border: 0}em,i,strong {font-style: normal}
+
+.body-wraped {overflow: hidden}.fontweight {font-weight: 300}
+/* 头部 */
+.top {
+	box-shadow: none !important
+}
+
+#head {width: 100%;height: 70px !important;min-width: 1200px;background: #fff;position: relative;font-weight: 300}
+#head .header-wrap {width: 1200px;height: 100%;margin: 0 auto;position: relative}
+#head .header-wrap .logo-img {float: left;width: 120px;height: 28px;margin: 21px 49px 0 0}
+/* 导航栏 */
+#head .header-wrap .nav {float: left;height: 100%}
+#head .header-wrap .nav .nav-box {height: 100%}
+#head .header-wrap .nav .nav-box .nav-item {
+	padding: 0 16px;cursor: pointer;float: left;position: relative;height: 100%
+}
+#head .header-wrap .nav .nav-box .nav-item:first-child {padding: 0 17px}
+#head .header-wrap .nav .nav-box .nav-item .item {
+	display: block;position: relative;height: 100%;padding: 0 4px;
+	font-size: 16px;line-height: 70px;color: #3f4359;cursor: pointer;
+}
+#head .header-wrap .nav .nav-box .nav-item .item:hover{
+    color: orangered;
+}
+
+    /* banner图 */
+#banner {width: 100%;text-align: center;height: 400px;overflow: hidden;}
+#banner>img{height: 100%;margin:0 -100%;}
+
+/* 汽车列表 */
+#car-wrapper {width: 1200px;margin: 40px auto 0;overflow: hidden;background: #fff;}
+.car-item{display: block;width: 25%;height: 290px;float: left;border-right: 1px solid #ececf2;border-bottom: 1px solid #ececf2;box-sizing: border-box;position: relative;}
+.car-item .item-pic{display: block;width: 260px;height: 166px;margin: 20px auto;}
+.car-item .item-mask{display: none;  width: 100%;height: 100%;background: #000;opacity: .04;filter: alpha(opacity=4);position: absolute;top: 0;left: 0;z-index: 100;}
+.car-item:hover .item-mask{display: block;}
+
+.car-item>.price-box{width: 100%;padding-left: 30px;box-sizing: border-box;margin-bottom: 6px;}
+.car-item .downpay{display: inline-block;color: #ff7414;font-size: 16px;margin-right: 10px;line-height: 22px;font-weight: 400;}
+.car-item .num-font{display: inline-block;margin: 0 2px;font-size: 24px;line-height: 27px;font-weight: 550;}
+.car-item .name-box{width: 100%;padding-left: 30px;box-sizing: border-box;position: relative;overflow: hidden;}
+.car-item .car-name{font-size: 16px;color: #3f4359;margin-right: 6px;line-height: 22px;float: left;}
+
+/* 四步 */
+#four-step {width: 1200px;margin: 50px auto 0}#four-step .step-title {font-size: 24px;color: #3f4359;text-align: left;padding-left: 10px;box-sizing: border-box;line-height: 33px;margin-bottom: 20px}#four-step .step-box {width: 100%;background: #fff;padding-top: 65px;box-sizing: border-box;overflow: hidden;height:280px;}#four-step .step-box .step-item {width: 25%;height: 100%;float: left;position: relative}#four-step .step-box .step-item .point-box {position: absolute;width: 70px;height: 6px;background: no-repeat 50%;background-size: 70px 6px;right: -35px;top: 21px}#four-step .step-box .step-item .step-img {display: block;width: 48px;height: 48px;margin: 0 auto 30px}#four-step .step-box .step-item .step-title {font-size: 20px;color: #3f4359;text-align: center;line-height: 28px;margin-bottom: 10px}#four-step .step-box .step-item .step-text {font-size: 14px;color: #8d91ac;line-height: 20px;text-align: center}
+
+/* 问答 */
+#question-wrap {width: 1200px;margin: 50px auto 0;background: #fff;overflow: hidden}#question-wrap .question-title {font-size: 24px;color: #3f4359;line-height: 33px;text-align: left;padding-bottom: 20px;padding-left: 10px;background: #f8f8fa}#question-wrap .question-box {width: 1200px;margin: 0 auto;padding: 0 50px 60px;overflow: hidden;box-sizing: border-box}#question-wrap .question-box .question-item {margin-top: 60px}#question-wrap .question-box .question-item .question {width: 100%;font-size: 20px;color: #3f4359;line-height: 28px;padding-left: 38px;box-sizing: border-box;background: url(../img/question.c2f5d2a6.png) no-repeat 0;background-size: 18px 19px;margin-bottom: 10px}#question-wrap .question-box .question-item .answer {padding-left: 38px;font-size: 16px;color: #8d91ac;line-height: 22px;text-align: left}
+
+/* 底部 */
+#foot {
+	margin-top: 50px;
+	width: 100%;
+	background: #5b5e7b
+}
+
+#foot .footer-nav-box {
+	min-width: 1200px;
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto
+}
+
+#foot .footer-nav-box .footer-nav {
+	width: 100%
+}
+
+#foot .footer-nav-box .footer-nav .footer-nav-item {
+	line-height: 40px;
+	margin-right: 40px;
+	float: left
+}
+
+#foot .footer-nav-box .footer-nav .footer-nav-item a {
+	color: #fff;
+	font-size: 14px
+}
+
+#foot .footer {
+	width: 100%;
+	height: 240px;
+	background: url(../img/footer-bg.7ee1d374.png) no-repeat 50%;
+	background-size: 100% 240px;
+	overflow: hidden
+}
+
+#foot .footer .footer-logo-box {
+	width: 1200px;
+	min-width: 1200px;
+	margin: 73px auto 0
+}
+
+#foot .footer .footer-logo-box .footer-wrap {
+	height: 34px;
+	position: relative;
+	opacity: .7
+}
+
+#foot .footer .footer-logo-box .footer-logo {
+	display: inline-block;
+	width: 110px;
+	background: url(../img/footer-logo.bca93678.png) no-repeat 50%;
+	background-size: 110px 34px;
+	margin-right: 20px
+}
+
+#foot .footer .footer-logo-box .addr {
+	font-size: 12px;
+	color: #c6c8d6;
+	letter-spacing: 0;
+	position: absolute;
+	bottom: 3px;
+	left: 130px;
+	line-height: 12px
+}
+
+#foot .footer .footer-logo-box .copyright {
+	font-size: 12px;
+	color: #8d91ac;
+	letter-spacing: 0;
+	margin: 4px 0;
+	line-height: 17px
+}
+
+#foot .footer .footer-logo-box .police {
+	padding-left: 18px;
+	background: url(../img/police.c5f72b41.png) no-repeat 0;
+	background-size: 14px 14px;
+	font-size: 12px;
+	line-height: 17px;
+	color: #8d91ac;
+	letter-spacing: 0
+}
+
+#foot .footer .footer-logo-box .jubao {
+	font-size: 12px;
+	color: #8d91ac;
+	margin: 20px 0 4px
+}
